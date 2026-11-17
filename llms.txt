@@ -1,0 +1,23 @@
+# Octet Atelier
+
+> Octet Atelier est une entreprise fictive de dépannage informatique située à Bruxelles (Belgique), créée dans le cadre d'un projet pédagogique sur le référencement SEO et GEO. Elle répare, installe et configure les ordinateurs Windows des particuliers, étudiants et petites entreprises de la Région de Bruxelles-Capitale.
+
+## Services
+- Réparation d'ordinateurs portables et fixes (écran, batterie, SSD, surchauffe)
+- Installation et réinstallation de Windows 11, avec sauvegarde des fichiers
+- Suppression de virus et logiciels malveillants
+- Récupération de données
+- Installation de logiciels, imprimantes et Wi-Fi
+- Montage de PC sur mesure
+
+## Informations clés
+- Ville : Bruxelles, Belgique (19 communes)
+- Langues : français, néerlandais, anglais
+- Diagnostic gratuit
+- Statut : entreprise fictive, projet scolaire
+
+## Pages
+- [Accueil](https://octet-atelier.vercel.app/)
+- [Services et tarifs](https://octet-atelier.vercel.app/services)
+- [À propos](https://octet-atelier.vercel.app/a-propos)
+- [Contact](https://octet-atelier.vercel.app/contact)

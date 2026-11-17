@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="fr-BE">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact – Dépannage informatique Bruxelles | Octet Atelier</title>
+  <meta name="description" content="Demandez un diagnostic gratuit pour votre ordinateur à Bruxelles : réparation PC, installation de Windows, virus. Formulaire de contact (projet fictif).">
+  <link rel="canonical" href="https://octet-atelier.vercel.app/contact">
+  <meta property="og:title" content="Contact – Dépannage informatique Bruxelles | Octet Atelier">
+  <meta property="og:description" content="Demandez un diagnostic gratuit pour votre ordinateur à Bruxelles (projet fictif).">
+  <meta property="og:url" content="https://octet-atelier.vercel.app/contact">
+  <link rel="icon" href="/images/logo-octet-atelier.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/style.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ContactPage",
+    "name": "Contacter Octet Atelier",
+    "url": "https://octet-atelier.vercel.app/contact",
+    "about": { "@id": "https://octet-atelier.vercel.app/#entreprise" }
+  }
+  </script>
+</head>
+<body>
+  <p class="notice">⚠️ Projet pédagogique : Octet Atelier est une entreprise <strong>fictive</strong>. Ce formulaire n'envoie aucun message.</p>
+
+  <header>
+    <div class="container nav">
+      <a href="/" class="logo"><img src="/images/logo-octet-atelier.svg" alt="Logo d'Octet Atelier, écran d'ordinateur avec une coche" width="34" height="34">Octet Atelier</a>
+      <nav aria-label="Navigation principale">
+        <ul>
+          <li><a href="/">Accueil</a></li>
+          <li><a href="/services">Services</a></li>
+          <li><a href="/a-propos">À propos</a></li>
+          <li><a href="/contact" aria-current="page">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section>
+      <div class="container">
+        <h1>Contacter Octet Atelier</h1>
+        <p class="lead">Décrivez le problème de votre ordinateur : nous vous répondons avec un diagnostic gratuit et un devis clair.</p>
+
+        <form id="contact-form">
+          <div>
+            <label for="nom">Nom</label>
+            <input id="nom" name="nom" type="text" autocomplete="name" required>
+          </div>
+          <div>
+            <label for="email">E-mail</label>
+            <input id="email" name="email" type="email" autocomplete="email" required>
+          </div>
+          <div>
+            <label for="service">Type de demande</label>
+            <select id="service" name="service">
+              <option>Réparation d'ordinateur</option>
+              <option>Installation de Windows</option>
+              <option>Suppression de virus</option>
+              <option>Récupération de données</option>
+              <option>Installation de logiciel / imprimante / Wi-Fi</option>
+              <option>Montage de PC sur mesure</option>
+              <option>Autre</option>
+            </select>
+          </div>
+          <div>
+            <label for="message">Décrivez le problème</label>
+            <textarea id="message" name="message" required></textarea>
+          </div>
+          <button type="submit" class="btn">Envoyer la demande</button>
+          <p class="form-note" id="form-result" role="status"></p>
+        </form>
+      </div>
+    </section>
+
+    <section class="alt">
+      <div class="container">
+        <h2>Zone d'intervention</h2>
+        <p>Octet Atelier intervient dans les 19 communes de la Région de Bruxelles-Capitale : Anderlecht, Auderghem, Berchem-Sainte-Agathe, Bruxelles-Ville, Etterbeek, Evere, Forest, Ganshoren, Ixelles, Jette, Koekelberg, Molenbeek-Saint-Jean, Saint-Gilles, Saint-Josse-ten-Noode, Schaerbeek, Uccle, Watermael-Boitsfort, Woluwe-Saint-Lambert et Woluwe-Saint-Pierre.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <h2>Octet Atelier</h2>
+          <p>Dépannage et réparation informatique à Bruxelles. Entreprise fictive – projet pédagogique.</p>
+        </div>
+        <div>
+          <h2>Pages</h2>
+          <ul>
+            <li><a href="/">Accueil</a></li>
+            <li><a href="/services">Services et tarifs</a></li>
+            <li><a href="/a-propos">À propos</a></li>
+          </ul>
+        </div>
+        <div>
+          <h2>Zone d'intervention</h2>
+          <p>Région de Bruxelles-Capitale (19 communes)</p>
+        </div>
+      </div>
+      <p class="footer-bottom">© 2026 Octet Atelier – Projet scolaire SEO &amp; GEO. Toutes les informations de ce site sont fictives.</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('contact-form').addEventListener('submit', function (e) {
+      e.preventDefault();
+      document.getElementById('form-result').textContent =
+        "Merci ! Ceci est un projet pédagogique : aucun message n'a été envoyé.";
+      this.reset();
+    });
+  </script>
+</body>
+</html>
